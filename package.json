@@ -1,9 +1,9 @@
 {
-  "name": "atom-markdown-wrapper",
+  "name": "atom-latex-wrapper",
   "version": "5.2.2",
-  "description": "Wraps markdown links, images, bold and italic text.",
+  "description": "Wraps latex links, images, bold and italic text.",
   "keywords": [
-    "markdown",
+    "latex",
     "paste",
     "link",
     "image",
@@ -13,23 +13,22 @@
     "clipboard"
   ],
   "author": {
-    "name": "Stefan Stölzle",
-    "email": "stefan@github.com",
-    "url": "stefan.stoelzle.me"
+    "name": "Vincent Picouet",
+    "email": "vpicouet@github.com",
   },
   "license": "MIT",
-  "homepage": "https://github.com/stoe/atom-markdown-wrapper#readme",
+  "homepage": "https://github.com/vpicouet/atom-latex-wrapper#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:stoe/atom-markdown-wrapper.git"
+    "url": "git@github.com:vpicouet/atom-latex-wrapper.git"
   },
   "bugs": {
-    "url": "https://github.com/stoe/atom-markdown-wrapper/issues"
+    "url": "https://github.com/vpicouet/atom-latex-wrapper/issues"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "main": "./lib/atom-markdown-wrapper",
+  "main": "./lib/atom-latex-wrapper",
   "scripts": {
     "test": "snyk test && xo",
     "snyk-protect": "snyk protect",
