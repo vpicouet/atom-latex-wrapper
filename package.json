@@ -1,7 +1,7 @@
 {
   "name": "atom-latex-wrapper",
   "version": "0.0.0",
-  "description": "Wraps latex bold, emph and italic text.",
+  "description": "Wraps latex bold, emph and italic text",
   "keywords": [
     "latex",
     "paste",
