@@ -1,7 +1,7 @@
 {
   "name": "atom-latex-wrapper",
-  "version": "5.2.2",
-  "description": "Wraps latex links, images, bold and italic text.",
+  "version": "0.0.0",
+  "description": "Wraps latex bold, emph and italic text.",
   "keywords": [
     "latex",
     "paste",
@@ -14,7 +14,7 @@
   ],
   "author": {
     "name": "Vincent Picouet",
-    "email": "vpicouet@github.com",
+    "email": "vpicouet@github.com"
   },
   "license": "MIT",
   "homepage": "https://github.com/vpicouet/atom-latex-wrapper#readme",
@@ -33,9 +33,6 @@
     "test": "snyk test && xo",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
-  },
-  "dependencies": {
-    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
