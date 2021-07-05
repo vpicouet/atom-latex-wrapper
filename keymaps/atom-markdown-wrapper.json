@@ -1,12 +1,12 @@
 {
-  ".platform-darwin atom-text-editor.is-focused[data-grammar='text tex latex']": {
-    "cmd-b": "atom-markdown-wrapper:bold",
-    "cmd-i": "atom-markdown-wrapper:italic",
-    "ctrl-e": "atom-markdown-wrapper:emph"
+  ".platform-darwin atom-text-editor.is-focused[data-grammar='source gfm text tex latex']": {
+    "cmd-b": "atom-latex-wrapper:bold",
+    "cmd-i": "atom-latex-wrapper:italic",
+    "cmd-e": "atom-latex-wrapper:emph"
   },
   ".platform-win32 atom-text-editor.is-focused[data-grammar='text tex latex'], .platform-linux atom-text-editor.is-focused[data-grammar='text tex latex']": {
-    "ctrl-b": "atom-markdown-wrapper:bold",
-    "ctrl-i": "atom-markdown-wrapper:italic",
-    "ctrl-shift-e": "atom-markdown-wrapper:emph"
+    "ctrl-b": "atom-latex-wrapper:bold",
+    "ctrl-i": "atom-latex-wrapper:italic",
+    "ctrl-e": "atom-latex-wrapper:emph"
   }
 }

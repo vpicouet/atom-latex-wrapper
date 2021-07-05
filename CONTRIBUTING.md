@@ -1,7 +1,5 @@
 ## Contributing
 
-[fork]: https://github.com/stoe/atom-markdown-wrapper/fork
-[pr]: https://github.com/stoe/atom-markdown-wrapper/compare
 [code-of-conduct]: CODE_OF_CONDUCT.md
 
 Hi there! I'm thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.

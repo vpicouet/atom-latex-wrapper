@@ -30,10 +30,9 @@ apm install atom-latex-wrapper
 #### Emph
 
 1. Select the text
-2. Click `ctrl+s` (`ctrl+i` on Macs) and the selected text will be marked \emph{text}.
+2. Click `ctrl+e` (`cmd+e` on Macs) and the selected text will be marked \emph{text}.
 
 
 ### License
 
 [MIT](./LICENSE)
-

@@ -27,5 +27,41 @@
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  }
+  },
+  "main": "./lib/atom-latex-wrapper",
+  "scripts": {
+    "test": "snyk test && xo",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-plugin-jasmine": "^2.10.1",
+    "snyk": "^1.88.2",
+    "xo": "^0.21.1"
+  },
+  "resolutions": {
+    "eslint-scope": "3.7.1"
+  },
+  "ava": {
+    "files": [
+      "test/*.t.js"
+    ]
+  },
+  "xo": {
+    "space": true,
+    "parser": "babel-eslint",
+    "globals": [
+      "atom",
+      "waitsForPromise"
+    ],
+    "plugins": [
+      "jasmine"
+    ],
+    "envs": [
+      "node",
+      "jasmine"
+    ]
+  },
+  "snyk": true
 }
